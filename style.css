@@ -1,0 +1,143 @@
+
+body {
+  font-family: sans-serif;
+  
+  background:blue;
+}
+
+.menu-toggle {
+  width: 30px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.bar {
+  height: 4px;
+  background: #333;
+  margin: 6px 0;
+  border-radius: 2px;
+}
+
+.nav {
+  display: none;
+  background: #333;
+  padding: 10px;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+margin: 0;
+}
+
+.nav li {
+  margin: 10px 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.tools{
+    border:1px solid black;
+    height:60vh;
+    justify-content:ceter;
+    text-align:center;
+    background-color:aqua;
+}
+.class1 {
+  padding:15px;
+  float:right;
+}
+.class1 table{
+  color:black;
+  border-radius:10px;
+  border:2px solid black;
+}
+
+.class1 table tr th{
+  border-radius:2px;
+  border:2px solid black;
+  background-color:white;
+}
+
+.class1 table tr td{
+  color:black;
+  font-family:calibri;
+  border-radius:2px;
+  border:2px solid black;
+}
+
+
+.class2{
+  padding:15px;
+}
+.class2 table {
+  border:2px solid black;
+  border-radius:10px;
+}
+.class2 table th{
+  background-color:white;
+  border:2px solid black;
+  border-radius:2px;
+}
+.class2 table tr td{
+  font-family:calibri;
+  color:black;
+  border:2px solid black;
+  border-radius:2px;
+}
+a{
+  text-decoration:none;
+}
+li{
+  list-style-type:none;
+  display:inline-block;
+}
+.class3{
+  margin-top:40px;
+  padding:15px;
+  background-color:crimson;
+  padding-left:15px;
+  padding-right:15px;
+  font-family:calibri;
+}
+.logo{
+  color:white;
+  font-weight:600px;
+  font-size:2rem;
+}
+.class4{
+  flex-wrap:wrap;
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+}
+li a{
+  color:white;
+  font-size:1.2rem;
+  margin-right:2rem;
+  flex-grow:1;
+}
+.Level {
+  margin-left:40%;
+}
+
+.Level table{
+  flex-grow:1;
+  border:8px solid black;
+  border-radius:15px;
+  width:20vw;
+  height:65vh;
+  padding-top:220px;
+}
+.Level table tr td{
+  border:2px solid black;
+  width:40vw;
+  color:black;
+  
+}
+.Level table tr{
+  text-align:center;
+  
+}
