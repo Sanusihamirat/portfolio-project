@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ─── PRIMARY META ─── -->
-    <title>Melanin | Full Stack Developer &amp; Creative Digital Solutions | Bringing ideas into Reality. </title>
+    <title>Melanin | Full Stack Developer &amp; Creative Digital Solutions | Bringing ideas into Reality.</title>
     <meta name="description" content="Sanusi Hamirat — Full Stack Web Developer, Creative Digital Solutions, and Graphic Designer. Building modern websites, UI/UX, e-commerce, and mobile apps." />
 
     <!-- ─── OPEN GRAPH META TAGS ─── -->
     <meta property="og:title" content="Melanin | Web Developer &amp; Creative Digital Solutions" />
     <meta property="og:description" content="Building modern websites, UI/UX experiences, e-commerce platforms, mobile apps, and creative digital solutions." />
     <meta property="og:image" content="https://your-domain.com/melanin.png" />
-    <!-- ⚠️ Replace the URL above with your actual hosted OG image URL -->
     <meta property="og:url" content="https://your-domain.com" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Melanin Portfolio" />
@@ -23,7 +22,6 @@
     <meta name="twitter:title" content="Melanin | Web Developer &amp; Creative Digital Solutions" />
     <meta name="twitter:description" content="Building modern websites, UI/UX experiences, e-commerce platforms, mobile apps, and creative digital solutions." />
     <meta name="twitter:image" content="https://your-domain.com/melanin.png" />
-    <!-- ⚠️ Replace the URL above with your actual hosted OG image URL -->
 
     <!-- ─── THEME COLOR ─── -->
     <meta name="theme-color" content="#ff6b35" />
@@ -32,7 +30,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
     <!-- ─── EMAILJS SDK ─── -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
 
     <style>
         /* ─── ROOT ─── */
@@ -1036,7 +1035,7 @@
         }
 
         /* ─── TESTIMONIALS ─── */
-     .testimonials {
+        .testimonials {
             padding: 90px 5% 80px;
             background: var(--secondary-bg);
         }
@@ -1209,13 +1208,13 @@
             background: rgba(255, 107, 53, 0.05);
         }
         .social-icon.whatsapp {
-            color:orange;
+            color: #ff8e6e;
         }
         .social-icon.whatsapp img {
             filter: brightness(0) invert(1);
         }
         .social-icon.whatsapp:hover {
-        
+
             border-color: #ff6b35;
         }
 
@@ -1285,7 +1284,7 @@
         }
         .reveal.visible {
             opacity: 1;
-            transform: translateY(0);
+transform: translateY(0);
         }
         .reveal-left {
             opacity: 0;
@@ -1604,7 +1603,7 @@
         }
 
         @media (max-width: 400px) {
-           .profile-image-wrapper {
+            .profile-image-wrapper {
                 width: 150px;
                 height: 150px;
             }
@@ -1775,7 +1774,7 @@
     </section>
 
     <!-- ═══ SERVICES ═══ -->
-    <section class="services" id="services">
+<section class="services" id="services">
         <h2 class="section-title reveal">My <span>Services</span></h2>
         <div class="services-grid">
             <div class="service-card reveal" style="transition-delay:0.05s">
@@ -1924,7 +1923,7 @@
     </section>
 
     <!-- ═══ ABOUT ═══ -->
-   <section id="about" class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="section-header reveal">
                 <h2>Building<span> Digital Experiences</span><br>That Inspires Confidence</h2>
@@ -1938,26 +1937,26 @@
                     <h3>Professional Full Stack Developer &amp; Creative Digital Solutions</h3>
                     <p>
                         I believe every great brand deserves a strong digital presence.
-                         I'm Sanusi Hamirat, a Frontend Web Developer and Creative Digital Solutions
-                          provider dedicated to creating modern, responsive, and user-focused 
-                          websites that help businesses, professionals, and personal brands stand out.
-<br><br>
-                       From portfolio websites and business websites to landing pages and 
-                       creative digital experiences, I focus on combining clean design, smooth
+                        I'm Sanusi Hamirat, a Frontend Web Developer and Creative Digital Solutions
+                        provider dedicated to creating modern, responsive, and user-focused
+                        websites that help businesses, professionals, and personal brands stand out.
+                        <br><br>
+                        From portfolio websites and business websites to landing pages and
+                        creative digital experiences, I focus on combining clean design, smooth
                         functionality, and attention to detail. Every project is built with
-                         performance, usability, and professionalism in mind to ensure visitors
-                          enjoy a seamless experience across all devices.
- <br><br>
+                        performance, usability, and professionalism in mind to ensure visitors
+                        enjoy a seamless experience across all devices.
+                        <br><br>
                         Beyond web development, I also provide creative design solutions,
-                         including promotional graphics and personalized AI-powered music projects, 
-                         helping clients communicate their ideas in memorable ways.
-<br><br>
-                       I value clear communication, reliability, and long-term relationships. 
-                       Whether you're launching a new business, refreshing your online presence, or 
-                       bringing a unique idea to life, my goal is to deliver work that reflects your
+                        including promotional graphics and personalized AI-powered music projects,
+                        helping clients communicate their ideas in memorable ways.
+                        <br><br>
+                        I value clear communication, reliability, and long-term relationships.
+                        Whether you're launching a new business, refreshing your online presence, or
+                        bringing a unique idea to life, my goal is to deliver work that reflects your
                         vision and supports your growth.
                         <br>
-Let's build something exceptional together.</p>
+                        Let's build something exceptional together.</p>
                     <div class="about-stats">
                         <div class="stat">
                             <h4 class="stat-number" data-target="35">0</h4>
@@ -2097,7 +2096,7 @@ Let's build something exceptional together.</p>
     </footer>
 
     <!-- ═══ JAVASCRIPT ═══ -->
-    <script>
+<script>
         // ─── PARTICLES ───
         (function initParticles() {
             const canvas = document.getElementById('particles-canvas');
@@ -2112,7 +2111,7 @@ Let's build something exceptional together.</p>
             }
             window.addEventListener('resize', resize);
             resize();
-
+        
             class Particle {
                 constructor() {
                     this.reset();
@@ -2260,7 +2259,7 @@ Let's build something exceptional together.</p>
         });
 
         // ─── ACTIVE NAV LINK ───
-function updateActiveNav() {
+        function updateActiveNav() {
             const sections = document.querySelectorAll('section[id]');
             const scrollPos = window.scrollY + 130;
             let currentId = 'home';
@@ -2359,7 +2358,7 @@ function updateActiveNav() {
         });
 
         // ─── VIEW MORE PROJECTS ───
-        document.getElementById('viewMoreBtn').addEventListener('click', function() {
+document.getElementById('viewMoreBtn').addEventListener('click', function() {
             const grid = document.querySelector('.portfolio-grid');
             const loading = document.createElement('div');
             loading.style.cssText =
@@ -2462,12 +2461,57 @@ function updateActiveNav() {
         }
         initStatCounters();
 
+        // ─── HIRE ME BUTTON → SCROLL TO CONTACT ───
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Close mobile menu if open
+                if (mobileMenu.classList.contains('open')) {
+                    closeMenu();
+                }
+                // Scroll to contact section
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // ─── OTHER BUTTON INTERACTIONS ───
+        document.querySelectorAll('.about-btn, .see-all-btn, .prime').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                if (this.classList.contains('prime') || this.classList.contains('about-btn')) {
+                    if (!this.closest('a')) {
+                        e.preventDefault();
+                        alert("Let's connect! Reach me at sanusikehindehamirat@gmail.com or +234 (0) 907-679-2350");
+                    }
+                }
+                if (this.classList.contains('see-all-btn')) {
+                    alert('All services are listed above. Contact me for custom work!');
+                }
+            });
+        });
+
+        // ─── DOWNLOAD RESUME ───
+        document.getElementById('downloadResumeBtn').addEventListener('click', function() {
+            alert('Resume download would start here. For now, email me for a copy!');
+        });
+
+        // ─── SERVICE ARROWS ───
+        document.querySelectorAll('.service-arrow').forEach(arrow => {
+            arrow.addEventListener('click', function() {
+                const title = this.closest('.service-content').querySelector('.service-title h3')
+                    .textContent;
+                alert('You selected: ' + title + '. I\'d be happy to discuss this with you!');
+            });
+        });
+
         // ─── NEWSLETTER — EMAILJS + LOCALSTORAGE (only total count visible) ───
         (function initEmailJS() {
             // ⚠️ IMPORTANT: Replace these with your own EmailJS credentials
-            const PUBLIC_KEY = 'YOUR_EMAILJS_PUBLIC_KEY'; // e.g. 'abc123def456'
-            const SERVICE_ID = 'YOUR_EMAILJS_SERVICE_ID'; // e.g. 'service_abc123'
-            const TEMPLATE_ID = 'YOUR_EMAILJS_TEMPLATE_ID'; // e.g. 'template_xyz789'
+            const PUBLIC_KEY = 'YOUR_EMAILJS_PUBLIC_KEY';
+            const SERVICE_ID = 'YOUR_EMAILJS_SERVICE_ID';
+            const TEMPLATE_ID = 'YOUR_EMAILJS_TEMPLATE_ID';
 
             const USE_EMAILJS = PUBLIC_KEY !== 'YOUR_EMAILJS_PUBLIC_KEY' &&
                 SERVICE_ID !== 'YOUR_EMAILJS_SERVICE_ID' &&
@@ -2477,7 +2521,7 @@ function updateActiveNav() {
                 emailjs.init(PUBLIC_KEY);
                 console.log('✅ EmailJS initialized');
             } else {
-                console.warn('⚠️ EmailJS not configured. Subscribers will be saved locally only.');
+                console.warn('⚠️ ');
             }
 
             const subscriberKey = 'melanin_subscribers';
@@ -2509,7 +2553,7 @@ function updateActiveNav() {
             }
 
             const form = document.getElementById('newsletterForm');
-            form.addEventListener('subit', function(e) {
+            form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 const input = this.querySelector('.newsletter-input');
                 const email = input.value.trim();
@@ -2523,25 +2567,24 @@ function updateActiveNav() {
                     const templateParams = {
                         to_email: 'sanusikehindehamirat@gmail.com',
                         from_email: email,
-                        subject: '📬 New Newsletter Subscription',
+                        subject: ' New Newsletter Subscription',
                         message: `New subscriber: ${email}\nTotal subscribers: ${getSubscribers().length}`
                     };
 
                     emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams)
                         .then(() => {
-                            alert('🎉 Thank you for subscribing! You\'ll receive updates soon.');
+                            alert(' Thank you for subscribing! You\'ll receive updates soon.');
                             input.value = '';
-                            // Log for admin only (not shown to user)
-                            console.log('📧 New subscriber:', email);
+                            console.log('New subscriber:', email);
                         })
                         .catch((error) => {
                             console.error('EmailJS error:', error);
-                            alert('✅ Subscribed! (Email notification failed, but you\'re on the list.)');
+                            alert(' Subscribed! (Email notification failed, but you\'re on the list.)');
                             input.value = '';
                         });
                 } else {
                     const count = getSubscribers().length;
-                    alert(`🎉 Thank you for subscribing! You're subscriber #${count}. (EmailJS not configured - please set up to receive email notifications.)`);
+                    alert(` Thanks you for subscribing! <br> I am excited to share my latest work and behind-the-scenes with you   `);
                     input.value = '';
                     console.log('📧 New subscriber (local only):', email);
                 }
@@ -2549,36 +2592,6 @@ function updateActiveNav() {
 
             updateSubscriberDisplay();
         })();
-
-        // ─── BUTTON INTERACTIONS ───
-        document.querySelectorAll('.nav-btn, .about-btn, .see-all-btn, .prime').forEach(btn => {
-            btn.addEventListener('click', function(e) {
-                if (this.classList.contains('nav-btn') || this.classList.contains('prime') || this
-                    .classList.contains('about-btn')) {
-                    if (!this.closest('a')) {
-                        e.preventDefault();
-                        alert("Let's connect! Reach me at sanusikehindehamirat@gmail.com or +234 (0) 907-679-2350");
-                    }
-                }
-                if (this.classList.contains('see-all-btn')) {
-                    alert('All services are listed above. Contact me for custom work!');
-                }
-            });
-        });
-
-        // ─── DOWNLOAD RESUME ───
-        document.getElementById('downloadResumeBtn').addEventListener('click', function() {
-            alert('Resume download would start here. For now, email me for a copy!');
-        });
-
-        // ─── SERVICE ARROWS ───
-        document.querySelectorAll('.service-arrow').forEach(arrow => {
-            arrow.addEventListener('click', function() {
-                const title = this.closest('.service-content').querySelector('.service-title h3')
-                    .textContent;
-                alert('You selected: ' + title + '. I\'d be happy to discuss this with you!');
-            });
-        });
 
         // ─── OG IMAGE GENERATOR ───
         function generateOGImage() {
@@ -2702,3 +2715,4 @@ function updateActiveNav() {
 
 </body>
 </html>
+ 
